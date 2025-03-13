@@ -1,0 +1,15 @@
+quit()명령어를 사용하면 인터프리터를 종료시킬수있음.
+
+teletypewriter = tty장치 = 터미널(콘솔)
+
+-c 명령어
+python -c "print('Hello, world!')"
+-c 다음에 온 문자열 코드가 실행됨
+
+-m 명령어
+python -m http.server
+-m 다음에 온 모듈을 실행시킴
+
+-i 명령어
+python -i script.py
+-i 다음에 온 스크립트나 명령어 이후에도 계속 대화를 지속할수있음
